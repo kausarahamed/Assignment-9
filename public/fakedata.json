@@ -1,0 +1,46 @@
+[
+
+    {
+        "id": 1,
+        "name": "Mark Saddam",
+        "comment": "I am happy that camera development has slowed down to the point that one can buy and use a camera for several years, without getting behind in image quality. I prefer to spend money on lenses, not on bodies. 15 years ago, buying a new body every two years was more or less mandatory due to improvements in AF, low light capacity, color, resolution, general speed and image quality. I missed the long term steadiness of my F100 or F3, with all the muscle memory built up over time using the cameras for years.",
+        "ratting": 4.5
+    },
+
+    {
+      "id": 2,
+        "name": "Jhon rafi",
+        "comment":"Nikon faces an issue of market share. They need cameras in hand to appreciate the so called benefit of ergo, and that advantage in 2022 is far less than it was in say 2017. Their loyal user base is aging out. As far as I can tell this is not changing any time soon either. Body and lens tech have become so similar between the different brands it is very hard to gain ground once you get behind.",
+        "ratting": 4
+    },
+
+    {
+        "id": 3,
+        "name": "Mike jhanker",
+        "comment": "It is better to be thought unwise than to speak and remove all doubt. Wiel do better in life if we follow that.",
+        "ratting":4.6
+    },
+
+
+    {
+        "id": 4,
+        "name": "Mark Mir",
+        "comment": "Maybe 12 to 15 years ago - if you bought a body it would be visibly improved in an IQ sense within 2 years. Today - visible IQ improvements are hard to come by. There may be room left to improve noise response but it won't make that much visible difference. Any body produced by any of the manufacturers that are typically talked about on this site will have excellent IQ that could only be dreamed about 12 years ago.",
+        "ratting": 4.2
+    },
+
+    {
+       "id": 5,
+        "name": "Tom kausar",
+        "comment": "Everyone is releasing interesting products these days anywhere from MFTs all the way up to Medium Format. So regardless of what you might hear in the comments sections, there are plenty of great choices Regardless of Brand.",
+        "ratting": 5
+    },
+
+    {
+        "id": 6,
+        "name": "Tom Hank",
+        "comment": "For me the camera is a gold because it gives me the tilt-and-swivel screen, the battery, the twin card slots and the lifeline to carry on using all my legacy A mount glass via an affordable adapter.",
+        "ratting": 4
+    }
+    
+]
