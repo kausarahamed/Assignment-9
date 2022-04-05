@@ -7,7 +7,7 @@ const Reviews = () => {
   console.log(comment);
 
   return (
-    <div>
+    <div className="pt-10 grid grid-cols-3 gap-5 py-10 shadow-2xl">
       {comment.map((comm) => (
         <Review key={comm.id} comm={comm}></Review>
       ))}
