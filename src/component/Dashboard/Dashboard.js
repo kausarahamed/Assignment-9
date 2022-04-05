@@ -20,7 +20,7 @@ const Dashboard = () => {
   }, []);
   return (
     <div>
-      <div className="mt-10 grid grid-cols-2">
+      <div className="mt-10 grid md:grid-cols-2 sm:grid-cols-1">
         <div>
           <h1 class="text-blue-600 text-center text-2xl my-5 font-bold">
             Month Wish Sell
