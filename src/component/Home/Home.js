@@ -10,7 +10,8 @@ const Home = () => {
       <div className="grid grid-cols-2 mt-10 mx-5 ">
         <div>
           <h1 className="text-5xl font-bold italic">
-            The Best Digital Camera Review
+            The Best Digital Camera{" "}
+            <small className="text-5xl font-bold text-blue-500">Review</small>
           </h1>
           <p className="text-xl mt-5">
             The Sony a7 IV is the fourth generation of the company's core a7
@@ -25,11 +26,14 @@ const Home = () => {
           <img src={img} alt="" />
         </div>
       </div>
-      <div>
-        {firstThree.map((comment) => (
-          <Review key={comment.id} comm={comment}></Review>
-        ))}
-      </div>
+      <section>
+        <h1 class="text-4xl font-bold text-center pt-5">Customer Reviews(3)</h1>
+        <div className="pt-20 grid grid-cols-3 gap-5 py-10 ">
+          {firstThree.map((comment) => (
+            <Review key={comment.id} comm={comment}></Review>
+          ))}
+        </div>
+      </section>
     </div>
   );
 };

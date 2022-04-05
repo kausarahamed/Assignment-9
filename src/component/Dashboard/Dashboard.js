@@ -22,6 +22,9 @@ const Dashboard = () => {
     <div>
       <div className="mt-10 grid grid-cols-2">
         <div>
+          <h1 class="text-blue-600 text-center text-2xl my-5 font-bold">
+            Month Wish Sell
+          </h1>
           <AreaChart
             width={630}
             height={250}
@@ -49,6 +52,9 @@ const Dashboard = () => {
           </AreaChart>
         </div>
         <div>
+          <h1 class="text-blue-600 text-center text-2xl my-5 font-bold">
+            Investment VS Revenue
+          </h1>
           <BarChart width={630} height={250} data={data}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="month" />
