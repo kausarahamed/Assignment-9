@@ -15,7 +15,7 @@ const Home = () => {
             The Best Digital Camera{" "}
             <small className="text-5xl font-bold text-blue-500">Review</small>
           </h1>
-          <p className="text-xl mt-5">
+          <p className="text-xl mt-5 text-justify">
             The Sony a7 IV is the fourth generation of the company's core a7
             full-frame mirrorless camera model. It's the most advanced yet,
             bringing many of the improvements Sony has made in terms of
