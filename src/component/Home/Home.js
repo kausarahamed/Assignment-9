@@ -27,12 +27,17 @@ const Home = () => {
         </div>
       </div>
       <section>
-        <h1 class="text-4xl font-bold text-center pt-5">Customer Reviews(3)</h1>
-        <div className="pt-20 grid grid-cols-3 gap-5 py-10 ">
+        <h1 class="text-4xl font-bold text-center pt-10">
+          Customer Reviews(3)
+        </h1>
+        <div className="pt-10 grid grid-cols-3 gap-5 py-10 shadow-2xl">
           {firstThree.map((comment) => (
             <Review key={comment.id} comm={comment}></Review>
           ))}
         </div>
+        <button class="bg-blue-900 hover:bg-blue-600 text-2xl px-10 py-1 rounded-3xl text-white mb-10">
+          See all comment
+        </button>
       </section>
     </div>
   );
