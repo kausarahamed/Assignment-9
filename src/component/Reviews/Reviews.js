@@ -1,9 +1,16 @@
 import React from "react";
+import useComment from "../../Hooks/UseComment";
+import Review from "../Review/Review";
 
 const Reviews = () => {
+  const [comment, setComment] = useComment();
+  console.log(comment);
+
   return (
     <div>
-      <h1>this is Reviews</h1>
+      {comment.map((comm) => (
+        <Review key={comm.id} comm={comm}></Review>
+      ))}
     </div>
   );
 };

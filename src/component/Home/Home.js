@@ -2,7 +2,9 @@ import React from "react";
 import useComment from "../../Hooks/UseComment";
 import img from "../../img/photo-1581591524425-c7e0978865fc.avif";
 import Review from "../Review/Review";
+import { useNavigate } from "react-router-dom";
 const Home = () => {
+  const navigate = useNavigate();
   const [comment, setComment] = useComment();
   const firstThree = comment.slice(0, 3);
   return (
@@ -35,7 +37,10 @@ const Home = () => {
             <Review key={comment.id} comm={comment}></Review>
           ))}
         </div>
-        <button class="bg-blue-900 hover:bg-blue-600 text-2xl px-10 py-1 rounded-3xl text-white mb-10">
+        <button
+          onClick={() => navigate("/reviews")}
+          class="bg-blue-900 hover:bg-blue-600 text-2xl px-10 py-1 rounded-3xl text-white mb-10"
+        >
           See all comment
         </button>
       </section>
